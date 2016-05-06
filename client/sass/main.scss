@@ -1,0 +1,40 @@
+//@import '_normalize';
+
+// import main scss file
+@import "{poetic:materialize-scss}/sass/materialize.scss";
+
+@import '_variables';
+//@import '_header';
+
+body {
+  font-family: Arial;
+  background-color: #efebe9;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+main {
+  padding-top: 10px;
+  padding-bottom: 80px;
+}
+
+.gray-border {
+  border-left: 1px solid #ddd;
+}
+
+.gray-border:first-child {
+  border: none;
+}
+
+.combo {
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+
+input {
+  text-align: center;
+}
